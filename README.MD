@@ -9,8 +9,6 @@ Hyperparams
 - Max Epochs: 10
 - Batch Size: 16
 
-For the baseline RGBD model, only the last classification layer of size [(RGB_feautres+HHA_features)x(num_classes)] is trained.
-
 | modality | set   | run 1 | run 2 | run 3 | run 4 | run 5 | avg   | std    |
 |----------|-------|-------|-------|-------|-------|-------|-------|--------|
 | rgb      | train | 86.98 | 86.71 | 86.98 | 87.38 | 87.92 | 87.19 | 0.4213 |
