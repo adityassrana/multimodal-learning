@@ -77,7 +77,7 @@ For early fusion, we concatenate the feature maps obtained from backbones (Cx7x7
 - We would like to fuse features between RGB and Depth Encoder at multiple levels
 - We also want to explore attention and transformer based networks to incorporate depth information in a better way than proposed by current architectures.
 
-## 3. Team work
+## 3. Team Members
 
 - Aditya Rana
 - Oscar Lorente
