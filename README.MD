@@ -68,7 +68,7 @@ For early fusion, we concatenate the feature maps obtained from backbones (Cx7x7
 - Depth helps in classification as we saw a 3 percent increase on the test set after incorporating depth information along with RGB
 - Fine-tuning AlexNet baseline model did not result in a significantly better performance
 - Early fusion gave better results compared to Late fusion and it seems that it allows the network to learn better features.
-- Changing the backbone and trying different fusion startegies did not result in a significant improvement over the baseline. One of the reasons behind this could be the simplicity of the fusion strategies that we have used. Better fusion strategies exist and should be explored in future work.
+- Changing the backbone and trying different fusion strategies did not result in a significant improvement over the baseline. One of the reasons behind this could be the simplicity of the fusion strategies that we have used. Better fusion strategies exist and should be explored in future work.
 
 ### Future work
 
