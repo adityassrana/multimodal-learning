@@ -50,7 +50,7 @@ We start by fine-tuning more layers in the baseline architecture and try two str
 AlexNet is a 60M parameter model. Even though we train only a few hundred thousand parameters for our task, a forward pass is still very computationall expensive. Currently, there are much lighter and better pre-trained models available for feature extraction for eg. ResNet18(11M) and MobileNetV3(2.5M)
 
 
-Also, the models we have looked at have been example of late fusion where features from RBG and HHA domain are fused at the very end stages of the network. We will also experiment with early fusion architectures. Even in early fusion, there are 2 categories: concatenation and addition. For computational reasons, we will not be running 5 runs for each experiment, and will only do that on the best model.
+Also, the models we have looked at have been example of late fusion where features from RBG and HHA domain are fused at the very end stages of the network. We will also experiment with early fusion architectures. Even in early fusion, there are 2 categories: concatenation and addition. For computational reasons, we will not be running 5 runs for each experiment.
 
 |Experiment - Late Fusion         | train | val   | test  |
 |---------------------------------|-------|-------|-------|
